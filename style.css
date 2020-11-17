@@ -1,0 +1,121 @@
+html {
+  font-family: 'Gravitas One', cursive;
+  color: antiquewhite;
+  background-color: hsl(350, 55%, 85%);
+}
+
+
+
+
+
+
+h1 {
+  font-size: 39px;
+  letter-spacing: .15em;
+  color: green;
+  background-color: antiquewhite ; 
+  font-family: 'League Script', cursive; 
+  font-weight: 100;
+
+} 
+
+
+body {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+  
+.calculator {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+}
+  
+
+
+.equal-to {
+  background-color: black;
+  color: whitesmoke;
+
+  
+} 
+
+
+.number{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.clear{
+ background-color: whitesmoke;
+ color: black;
+
+}
+
+.operator{
+background-color: whitesmoke;
+color: black;
+} 
+  
+input {
+  margin-bottom: 0.35rem;
+  padding: .85rem 
+
+}
+  
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+
+.row div {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    width: 5em;
+    height: 4.5em;
+    margin: .05em;
+} 
+
+
+
+
+  
+.row div:hover {
+    cursor: pointer;
+    color: lightpink;
+}
+
+.hide {
+  display: none;
+}
+
+
+@media (max-width: 576px) {
+    html {
+      font-size: 12px;
+    }
+}
+  
