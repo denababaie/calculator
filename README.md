@@ -1,7 +1,7 @@
 # calculator
 
 <!-- ABOUT THE PROJECT -->
-### About The Project
+## About The Project
 Had to create a **calculator** using JS.
 
 Calculator had to have:
@@ -12,4 +12,4 @@ Calculator had to have:
 This project was built by mainly using JS, HTML and CSS
 
 ### Project
-The project can be found [here] ("https://github.com/denababaie/calculator")
+The project can be found [here](https://github.com/denababaie/calculator)
