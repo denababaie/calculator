@@ -14,7 +14,6 @@ const clear = document.querySelector(".clear");
 
 
 
-/* linken van html met js */
 
 
 /* clicks */
