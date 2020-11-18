@@ -2,14 +2,14 @@
 
 const html = document.querySelector("html");
 const body = document.querySelector("body");
-/*const h1 = document.querySelector("h1");
+const h1 = document.querySelector("h1");
 const calculator = document.createElement("div");
 
 const display = document.querySelector("#display");
 const numbers = document.querySelectorAll(".number");
 const operators = document.querySelectorAll(".operator");
 const equalTo = document.querySelector(".equal-to");
-const clear = document.querySelector(".clear");*/
+const clear = document.querySelector(".clear");
 
 
 
@@ -73,7 +73,7 @@ function calculateState(event) {
     } 
     /* "**" is the equivalent of "^" in js*/ 
 
-    if (operator == "+/-") {
+   if (operator == "+/-") {
       result = ((firstNumInt -  firstNumInt) - firstNumInt);
     } 
 /* logic used: if I want a negative number ; I choose a random number (for example 4) then I take that number minus exact 
