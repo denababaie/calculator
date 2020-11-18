@@ -5,4 +5,4 @@
 Had to create a calculator using JS.
 
 ### Built With
-This project was built mainly using JS, HTML and CSS
+This project was built by mainly using JS, HTML and CSS
