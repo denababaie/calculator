@@ -8,6 +8,8 @@ Calculator had to have:
 * all digit buttons from 0 to 9
 * operation buttons such as +, -, x, /
 
+[more detailed instructions](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Hill/projects/1.calculator)
+
 ### Built With
 This project was built by mainly using JS, HTML and CSS
 
