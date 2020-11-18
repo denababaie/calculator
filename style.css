@@ -49,9 +49,9 @@ body {
 .equal-to {
   background-color: black;
   color: whitesmoke;
-
   
 } 
+
 
 
 .number{
@@ -60,7 +60,7 @@ body {
 }
 
 .clear{
- background-color: whitesmoke;
+ background-color: #ebb3a9;
  color: black;
 
 }
@@ -100,12 +100,10 @@ input {
 } 
 
 
-
-
-  
 .row div:hover {
     cursor: pointer;
-    color: lightpink;
+    color: black;
+    background-color: antiquewhite;
 }
 
 .hide {

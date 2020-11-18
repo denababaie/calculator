@@ -76,10 +76,13 @@ function calculateState(event) {
    if (operator == "+/-") {
       result = ((firstNumInt -  firstNumInt) - firstNumInt);
     } 
+
 /* logic used: if I want a negative number ; I choose a random number (for example 4) then I take that number minus exact 
 same (amount) number ; so i end up getting (4-4); my result is now 0 ; so I end up doing the following (0-4); result = -4 */
 
 /* ( (number - number) - number ) */
+
+
 
 
 
