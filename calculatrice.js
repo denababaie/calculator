@@ -28,7 +28,9 @@ for (let i = 0; i < operators.length; i++) {
 
 equalTo.onclick = calculateState;
 
+
 clear.onclick = clearState;
+
 
 /* functions */
 function numberState(event) {
@@ -73,18 +75,9 @@ function calculateState(event) {
     } 
     /* "**" is the equivalent of "^" in js*/ 
 
-   if (operator == "+/-") {
-      result = ((firstNumInt -  firstNumInt) - firstNumInt);
-    } 
-
-/* logic used: if I want a negative number ; I choose a random number (for example 4) then I take that number minus exact 
-same (amount) number ; so i end up getting (4-4); my result is now 0 ; so I end up doing the following (0-4); result = -4 */
-
-/* ( (number - number) - number ) */
-
-
-
-
+    if (operator == "%") {
+      result = (firstNumInt/100) * secondNumInt;
+   }
 
     display.value = result;
     
@@ -92,5 +85,9 @@ same (amount) number ; so i end up getting (4-4); my result is now 0 ; so I end 
 
 
 function clearState(event) {
+  display.value = "";
+} 
+
+function deleteState(event) {
   display.value = "";
 } 
